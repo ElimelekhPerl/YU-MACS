@@ -2,8 +2,8 @@ let email = "js@mail.com"; //will be inputted dynamically
 email = email.replace(".", "_");
 
 AWS.config.update({
-    accessKeyId: 'AKIAI63BZHNADKELUDVA',
-    secretAccessKey: 'c/kpEe4CgVTpSdY1ClKvpRp1b57cAALlRZite2vn',
+    accessKeyId: 'KEYID',
+    secretAccessKey: 'ACCESSKEY',
     region: 'us-east-1' 
 });
 var s3 = new AWS.S3();
